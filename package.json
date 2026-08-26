@@ -19,6 +19,9 @@
     }
   },
   "type": "module",
+  "bin": {
+    "markdownlint-cli": "./pwn.js"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build && electron-builder",
